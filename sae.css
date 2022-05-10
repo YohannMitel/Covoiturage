@@ -1,0 +1,48 @@
+#nav {
+  background-color: #333;
+  border: 2px solid green;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+
+}
+#nav li {
+	display: inline;
+	list-style: none;
+
+}
+#nav a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+}
+h1{
+  text-align: center;
+  font-family: arial;
+}
+
+#nav a:hover{
+  background-color: green;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-family: arial;
+  background-color: #333;
+  color: white;
+}
+
+#p1 {
+  border: 5px solid green;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+  font-family: arial;
+}
