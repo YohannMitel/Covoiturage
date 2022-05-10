@@ -16,8 +16,8 @@
   <h1>Bienvenue sur Convoitudiant</h1>
   <br><br>
   <h2 id="p1">Une fois Convoitudiant,<br>Toujours Convoitudiant</h2>
-
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a class="twitter-timeline" href="https://twitter.com/Covoitudiant?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <br><br>
   <h4>Nos partenaires</h4>
 
   <button type="button" name="button" onclick=window.location.href='http://monsite.fr'>A propos</button>
