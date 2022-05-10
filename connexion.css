@@ -61,7 +61,7 @@ form .texte{
 .texte input:focus ~ label,
 .texte input:valid ~ label{
   top: -5px;
-  color: #2691d9;
+  color: #4BA247;
 }
 .texte input:focus ~ span::before,
 .texte input:valid ~ span::before{
