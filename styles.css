@@ -1,0 +1,128 @@
+body {
+	font-family : 'Source code pro',Calibri, serif;
+	margin : 0px;
+	padding : 0px;
+}
+
+
+nav > ul {
+	margin : 0px;
+	padding : 0px;
+}
+
+nav > ul::after{
+	content: "";
+	display : black;
+	clear : both;
+	
+}
+
+nav > ul > li {
+	float : left;
+	position : relative;
+}
+
+nav > ul > li > a {
+	padding: 20px 30px;
+	color :#424558;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+.subequipe{
+	display: none;
+}
+
+nav a {
+	display : inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li:hover a {
+	padding: 15px 30px 20px 30px;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top : 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+	
+}
+
+
+nav li:hover .subequipe{
+	display: inline-block;
+	position: absolute;
+	top : 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+
+.submenu li {
+	border-bottom: 1px solid #CCC;	
+}
+
+.subequipe li {
+	border-bottom: 1px solid #CCC;	
+}
+
+.subequipe li a {
+	padding: 15px 30px ;
+	font-size : 13px;
+	color: #222538;
+	width: 270px ;
+}
+
+.submenu li a{
+	padding: 15px 30px ;
+	font-size : 13px;
+	color: #222538;
+	width: 270px ;
+}
+
+.menu:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.equipe:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.equipe .subequipe{
+	background-color: RGB(230, 100, 40);
+}
+
+.menu .submenu{
+	background-color: RGB(230, 100, 40);
+}
+
+.subequipe li:hover a {
+	color: #DDD;
+	font-weight:bold;
+}
+
+.submenu li:hover a {
+	color: #EEE;
+	font-weight: bold;
+}
+
+.equipe .subequipe li:hover {
+	background-color: RGB(210, 70, 60);
+	
+}
+
+.menu .submenu li:hover{
+	background-color: RGB(210, 70, 60);
+} 
