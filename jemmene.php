@@ -43,14 +43,8 @@
       <span></span>
       <label>Immatriculation du véhicule</label>
     </div>
-    <div class="texte">
-      <input type="number" min="1"required>
-      <span></span>
-      <label>Nombre de places disponibles</label>
-    </div>
-    <input type="submit" value="Confirmer">
+    <input type="submit" class="button_active" onclick="location.href='equipe.php';"
     </form>
   </div>
-
   </body>
 </html>
