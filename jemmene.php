@@ -3,13 +3,13 @@
 <head>    <meta charset="utf-8">
     <link rel="stylesheet" href="jemmene.css">
     <title></title>
-  </head>
+ </head>
   <body>
     <ul id="nav">
       <li><a href="index.php">Accueil</a></li>
       <li><a href="#">J'emmene</a></li>
       <li><a href="trajet.php">Les trajets</a></li>
-  </ul>
+    </ul>
   <div class="center">
     <h1>Veuillez entrer un trajet</h1>
     <form action="trajet" method="post">
@@ -43,14 +43,8 @@
       <span></span>
       <label>Immatriculation du véhicule</label>
     </div>
-    <div class="texte">
-      <input type="number" min="1"required>
-      <span></span>
-      <label>Nombre de places disponibles</label>
-    </div>
     <input type="submit" value="Confirmer">
     </form>
   </div>
-
-  </body>
+ </body>
 </html>
