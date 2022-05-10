@@ -7,10 +7,11 @@
   </head>
   <body>
 	<h1>Création d'équipe</h1>
-	 <div class="texte">
-      <input type="number" min="1"required>
-      <span></span>
-      <label>Nombre de places disponibles</label>
-    </div>
+	<div class="texte">
+      		<input type="number" min="1"required>
+      		<span></span>
+      		<label>Nombre de places disponibles</label>
+    	</div>
+	<input type="submit" class="button_active" onclick="location.href='index.php';"
   </body>
  </html>
