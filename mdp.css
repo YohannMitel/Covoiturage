@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  background: linear-gradient(120deg,#161816,#4BA247);
+  height: 100vh;
+  overflow: hidden;
+}
+button{
+  width: 90%;
+  height: 50px;
+  border: 1px solid;
+  background: #4BA247;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  cursor: pointer;
+  margin-left: 5%;
+}
+button:hover{
+  border-color: #2691d9;
+  transition: .10s;
+}
+.center h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background: white;
+  border-radius: 10px;
+}
+.texte input{
+  width: 90%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.texte label{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.texte{
+  position: relative;
+
+  margin: 30px 0;
+
+}
+input[type="submit"]{
+  width: 90%;
+  height: 50px;
+  border: 1px solid;
+  background: #4BA247;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  cursor: pointer;
+  margin-left: 5%;
+}
+input[type="submit"]:hover{
+  border-color: #2691d9;
+  transition: .10s;
+}
+.texte span::before{
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 90%;
+  height: 2px;
+  background: #4BA247;
+  margin-left: 5%;
+}
+.texte input:focus ~ label,
+.texte input:valid ~ label{
+  top: -5px;
+  color: #4BA247;
+}
+.texte input:focus ~ span::before,
+.texte input:valid ~ span::before{
+  width: 90%;
+}
