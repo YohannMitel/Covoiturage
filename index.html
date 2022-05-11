@@ -2,22 +2,43 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="index.css">
-    <title></title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Acceuil</title>
   </head>
   <body>
     <div class="banner">
       <nav class="navbar">
-        <img class="logo"src="logo.png" alt="">
+        <img class="logo"src="Sans_titre.png" alt="">
         <ul>
-          <li><a href="jemmene.html">J'emmene</a></li>
-          <li><a href="trajets.html">Voir les trajets</a></li>
+          <li class="trajet"><a href="trajets.html">Voir les trajets</a></li>
         </ul>
+				<ul>
+			<li class="menu"><a href="#">Nom étudiant</a>
+				<ul class="submenu">
+					<li><a href="profil.php">Mon Profil</a></li>
+					<li><a href="deconnexion.html">Se Déconnecter</a></li>
+				</ul>
+			</li>
+			<li class="equipe"><a href="#">Equipe</a>
+				<ul class="subequipe">
+					<li><a href="Mequipe.php">Mon équipe </a></li>
+					<li><a href="Tequipe.php">Affichage une équipe</a></li>
+					<li><a href= "Cequipe.php">Créer une équipe</a></li>
+				</ul>
+			</li>
+		</ul>
       </nav>
     </div>
     <div class="contenu">
       <h1>Bienvenue sur Convoit'Udiant</h1>
       <h3>Convoit'Udiant un jour, <br>Convoit'Udiant toujours</h3>
     </div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<h2>Notre fil d'actualité</h2>
+	<div class="twitter">
+		<a class="twitter-timeline" href="https://twitter.com/Covoitudiant?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" 
+		charset="utf-8"></script>
+	</div>
   </body>
 </html>
